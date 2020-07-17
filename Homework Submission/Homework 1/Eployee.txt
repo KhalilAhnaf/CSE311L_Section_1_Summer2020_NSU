@@ -1,0 +1,5 @@
+CREATE TABLE `test`. 
+( `Employee_Id` INT(6) NOT NULL , `First_Name` VARCHAR(20) NULL DEFAULT NULL , `Last_Name` VARCHAR(25) NOT NULL , `Email` VARCHAR(25) NOT NULL , `Phone_Number` VARCHAR(15) NULL DEFAULT NULL , `Hire_Date` DATE NOT NULL , `Job_Id` VARCHAR(10) NOT NULL , `Salary` INT(8) NULL DEFAULT NULL , `Commission_pct` INT(2) NULL DEFAULT NULL , `Manager_Id` INT(6) NULL DEFAULT NULL , `Department_id` INT(4) NULL DEFAULT NULL );
+
+
+INSERT INTO `employees` VALUES ('100', 'King', 'Sking', '87569876', '2020-04-02', 'AD_PRES', '24000', NULL, NULL, '20'), ('101', 'Nina', 'Kocchar', 'NKOCCHAR', '63739479', '2020-04-14', 'AD_VP', '17000', NULL, '100', '90'), ('102', 'Lex', 'De Haan', 'LDEHAAN', '5151234569', '2020-07-13', 'AD_VP', '17000', NULL, '100', '90'), ('103', 'Alexander', 'Hunold', 'AHUNOLD', '5904234567', '2020-07-01', 'IT_PROG', '9000', NULL, '102', '60'), ('104', 'Bruce', 'Ernst', 'BERNST', '5904234568', '2020-07-27', 'IT_PROG', '6000', NULL, '103', '60'), ('105', 'Dianna', 'Lorentz', 'DLORENTZ', '5904235567', '2020-07-14', 'IT_PROG', '4200', NULL, '103', '60');

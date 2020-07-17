@@ -1,0 +1,5 @@
+CREATE TABLE `test`.`locations` ( `Location_Id` INT(4) NOT NULL , `Street_Adress` VARCHAR(40) NULL DEFAULT NULL , `Postal_Code` VARCHAR(12) NULL DEFAULT NULL , `City` VARCHAR(30) NOT NULL , `State_Province` VARCHAR(25) NULL DEFAULT NULL , `Country_Id` VARCHAR(2) NULL DEFAULT NULL );
+
+
+
+INSERT INTO `locations` VALUES ('1400', '2014 Jabberwocky Rd', '26192', 'Southlake', 'Texas ', 'US'), ('1500', '2011 Interiors Blvd', '99236', 'South San Francisco', 'California', 'US'), ('1700', '2004 Charade Rd', '98199', 'Seattle', 'Washington', 'US'), ('1800', '460 Bloor St. W.', 'ON M5S 1X8', 'Toronto', 'Ontario', 'CA'), ('2500', 'Magdalen Centre- The Oxford Sc. Park', 'OX9 9ZB', 'Oxford', 'Oxford', 'UK')

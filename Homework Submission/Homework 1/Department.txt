@@ -1,0 +1,6 @@
+CREATE TABLE `test`.`
+departments` 
+( 
+`Department_Id` INT(10) NOT NULL , `Department_Name` VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL , `Manager-Id` INT(3) NOT NULL , `Location_id` INT(4) NOT NULL , PRIMARY KEY (`Department_Id`));
+
+INSERT INTO `departments` VALUES ('10', 'Adminstration', '200', '1700'), ('20', 'Marketing', '201', '1800'), ('50', 'Shipping', '124', '1500'), ('60', 'IT', '103', '1400')
