@@ -1,0 +1,4 @@
+SELECT Last_Name, Department_Id
+FROM employees1
+WHERE Department_Id IN (20,50)
+ORDER BY Last_Name
