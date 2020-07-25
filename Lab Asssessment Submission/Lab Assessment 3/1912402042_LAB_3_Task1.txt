@@ -1,0 +1,1 @@
+SELECT last_name AS 'Name', salary, (Salary/4) AS 'Weekly Salary',Department_Id FROM employees
