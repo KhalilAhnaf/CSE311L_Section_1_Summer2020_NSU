@@ -1,0 +1,4 @@
+SELECT Last_Name , Salary, Commision_pct
+FROM `employees1`
+WHERE Commision_pct LIKE '_%'
+ORDER BY Salary DESC
