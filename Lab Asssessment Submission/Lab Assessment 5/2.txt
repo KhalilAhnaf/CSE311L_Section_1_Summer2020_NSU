@@ -1,0 +1,1 @@
+SELECT Job_Id, SUM(Salary), AVG(Salary), MAX(Salary), MIN(Salary) FROM `employees1` GROUP BY Job_Id
