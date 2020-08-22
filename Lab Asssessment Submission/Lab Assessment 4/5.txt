@@ -1,0 +1,1 @@
+SELECT a.Last_Name "Employee", a.Employee_Id "Emp#", m.Last_Name "Manager", m.Employee_Id "Mgr#" FROM employees1 a JOIN employees1 m ON(a.Manager_Id = m.Employee_Id)

@@ -1,0 +1,3 @@
+SELECT Last_Name , Hire_Date
+FROM `employees1`
+WHERE year(Hire_Date) = 1994

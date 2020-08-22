@@ -1,0 +1,1 @@
+SELECT e.Last_Name, d.Department_Name, e.Department_Id, d.Department_Id FROM employees1 e, department d WHERE e.Department_Id = d.Department_Id
