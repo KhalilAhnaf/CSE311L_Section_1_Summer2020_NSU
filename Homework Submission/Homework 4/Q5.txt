@@ -1,0 +1,1 @@
+SELECT Last_Name, Salary, Commision_pct FROM employees1 WHERE Commision_pct is NULL ORDER BY Salary DESC, Commision_pct DESC

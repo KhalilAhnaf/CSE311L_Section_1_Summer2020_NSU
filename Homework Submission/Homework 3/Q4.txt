@@ -1,0 +1,1 @@
+SELECT Last_Name, Hire_Date, Department_Id FROM employees1 WHERE Department_Id IN (20, 50) ORDER BY Last_Name ASC

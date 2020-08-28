@@ -1,0 +1,1 @@
+SELECT Job_Id, round(MIN(Salary)), round(MAX(Salary)), round(SUM(Salary)), round(AVG(Salary)) FROM employees1 GROUP BY Job_Id
